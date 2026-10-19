@@ -145,7 +145,7 @@
   function buildColumns(traces) {
     return [
       { key: "rank", label: "Rank", value: (e) => e.rank },
-      { key: "student", label: "Student", value: (e) => e.rank, render: (e) => e.student },
+      { key: "student", label: "Person", value: (e) => e.rank, render: (e) => e.student },
       { key: "total", label: "Total cycles", cls: "total", value: (e) => e.total_cycles, render: (e) => fmtInt.format(e.total_cycles) },
       ...traces.map((t) => ({
         key: "trace:" + t, label: prettyTrace(t),

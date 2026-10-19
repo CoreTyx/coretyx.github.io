@@ -1,8 +1,84 @@
 {
-  "area_limit": null,
-  "assignment_name": "",
-  "entries": [],
+  "area_limit": 100000,
+  "assignment_name": "mp_cache_comp",
+  "entries": [
+    {
+      "area": 45037,
+      "benchmarks": {
+        "aes_sha": {
+          "cycles": 287441,
+          "requests": 100271
+        },
+        "assoc_sweet_spot": {
+          "cycles": 828986,
+          "requests": 200768
+        },
+        "coremark_im": {
+          "cycles": 174653,
+          "requests": 66826
+        },
+        "phased_4kb": {
+          "cycles": 737653,
+          "requests": 116688
+        },
+        "pointer_chase": {
+          "cycles": 1173352,
+          "requests": 109568
+        },
+        "real_world_mix": {
+          "cycles": 945946,
+          "requests": 185768
+        }
+      },
+      "pp_cache": false,
+      "rank": 1,
+      "slack": 0.004402,
+      "student": "Person 1",
+      "total_cycles": 4148031
+    },
+    {
+      "area": 48569,
+      "benchmarks": {
+        "aes_sha": {
+          "cycles": 287441,
+          "requests": 100271
+        },
+        "assoc_sweet_spot": {
+          "cycles": 828986,
+          "requests": 200768
+        },
+        "coremark_im": {
+          "cycles": 174653,
+          "requests": 66826
+        },
+        "phased_4kb": {
+          "cycles": 737653,
+          "requests": 116688
+        },
+        "pointer_chase": {
+          "cycles": 1173352,
+          "requests": 109568
+        },
+        "real_world_mix": {
+          "cycles": 945946,
+          "requests": 185768
+        }
+      },
+      "pp_cache": false,
+      "rank": 2,
+      "slack": 0.001104,
+      "student": "Person 2",
+      "total_cycles": 4148031
+    }
+  ],
   "metric": "total_cycles",
-  "trace_names": [],
-  "updated_at": null
+  "trace_names": [
+    "aes_sha",
+    "assoc_sweet_spot",
+    "coremark_im",
+    "phased_4kb",
+    "pointer_chase",
+    "real_world_mix"
+  ],
+  "updated_at": "2026-10-19T04:10:36+00:00"
 }
